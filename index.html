@@ -44,6 +44,7 @@
             margin: 0px 7px;
             width: 99%;
             color: white;
+            border-bottom: 3px solid #29B6F6;
         }
         #section-2,
         #section-3,
@@ -60,8 +61,12 @@
             border-right: 3px solid #29B6F6;
         }
         #section-4{margin-top: 0;}
+        
+        #section-2 p{
+            margin-top: 0px;
+        }
 
-        #section-2 div button {
+        #section-2 p button {
             font-size: 25px;
             background-color: red;
             color: white;
@@ -69,7 +74,7 @@
             margin-left: 10px;
         }
 
-        #section-2 div button:hover {
+        #section-2 p button:hover {
             background-color: #29B6F6;
         }
 
@@ -81,6 +86,7 @@
         }
 
         #section-4 p {
+            margin-top: 0vh;
             padding-top: 0px;
             display: inline-block;
             font-size: 20px;
@@ -93,7 +99,7 @@
         }
 
         #section-4 p a:hover {
-            border-bottom: 3px solid black;
+            border-bottom: 3px solid #29B6F6 ;;
         }
 
         .about {
@@ -101,7 +107,7 @@
             display: inline-block;
             height: 40vh;
             margin-left: 0px;
-            border-bottom: 3px solid #29B6F6;
+            
             border-right: 3px solid #29B6F6;
         }
 
@@ -137,10 +143,17 @@
         #section-3 span i {
             margin: 0px 3px;
         }
-        h1{
-            color: #29B6F6;
-        }
-
+        
+            .QuickLinks a,.categories a{
+                text-decoration: none;color: white;
+                
+            }
+            .QuickLinks a:hover,.categories a:hover{
+                color:#29B6F6 ;
+            }
+            h1{
+                color:#29B6F6 ;  
+            }
         @media screen and (max-width:850px) {
             #section-1 {
                 height: 80vh;
@@ -150,10 +163,12 @@
             .about {
                 width: 100%;
                 font-size: 15px;
+                border-bottom: 3px solid #29B6F6;
             }
 
             .Contact-Us {
                 font-size: 15px;
+                margin-right: 0px;
             }
 
             .categories,
@@ -166,7 +181,7 @@
 
         @media screen and (max-width: 520px) {
             #section-1 {
-                height: 95vh;
+                height: 110vh;
             }
 
             footer .heading {
@@ -181,12 +196,15 @@
             .categories,
             .QuickLinks {
                 width: 50%;
-                height: 30vh;
+                height: 40vh;
+                font-size: 15px;
+                
             }
 
             .Contact-Us {
                 width: 100%;
-                height: 25vh;
+                height: 30vh;
+                
             }
 
             #section-2 {
@@ -197,7 +215,7 @@
                 font-size: 15px;
             }
 
-            #section-2 div button {
+            #section-2 p button {
                 font-size: 20px;
             }
 
@@ -225,33 +243,33 @@
                 </section>
                 <section class="categories">
                     <h1>Categories</h1>
-                    <div>C</div>
-                    <div>UI Design</div>
-                    <div>PHP</div>
-                    <div>JAVA</div>
-                    <div>Android</div>
-                    <div>Hybrid Apps</div>
+                    <a href="" ><p>C</p></a>
+                     <a href="" ><p>UI Design</p></a>
+                     <a href="" ><p>PHP</p></a>
+                     <a href="" ><p>JAVA</p></a>
+                     <a href="" ><p>Android</p></a>
+                     <a href="" ><p>Hybrid Apps</p></a>
     
                 </section>
                 <section class="QuickLinks">
                     <h1>QuickLinks</h1>
-                    <div>About Us</div>
-                    <div>Contact Us</div>
-                    <div>Contribute</div>
-                    <div>Privacy Policy</div>
-                    <div>Site Map</div>
-                    <div>Disclaimer</div>
+                     <a href="" ><p>About Us</p></a>
+                     <a href="" ><p>Contact Us</p></a>
+                     <a href="" ><p>Contribute</p></a>
+                     <a href="" ><p>Privacy Policy</p></a>
+                     <a href="" ><p>Site Map</p></a>
+                     <a href="" ><p>Disclaimer</p></a>
                 </section>
                 <section class="Contact-Us">
                     <h1>Contact Us</h1>
-                    <div><i class="fa fa-home" aria-hidden="true"></i>SCO-Chandigarh,India</div>
-                    <div><i class="fa fa-envelope-o" aria-hidden="true"></i>betalabsindia@gmail.com</div>
-                    <div><i class="fa fa-phone-square" aria-hidden="true"></i>Mobile:9729280731</div>
-                    <div><i class="fa fa-facebook-official" aria-hidden="true"></i>betalabsindia</div>
+                    <p><i class="fa fa-home" aria-hidden="true"></i>SCO-Chandigarh,India</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>betalabsindia@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>Mobile:9729280731</p>
+                    <p><i class="fa fa-facebook-official" aria-hidden="true"></i>betalabsindia</p>
                 </section>
             </section>
             <section class="section" id="section-2">
-                <div class="">Register For Free<a href=""><button>Sign Up</button></a></div>
+                <p class="">Register For Free<a href=""><button>Sign Up</button></a></p>
             </section>
             <section class="section" id="section-3">
                <a href="" style="text-decoration: none; color: white;"> <span style="background-color: #3b5999;">
